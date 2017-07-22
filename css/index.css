@@ -12,7 +12,11 @@ body {
   /*border-top: solid #2f68eb;*/
   border-width: 1px;
 }
-
+h1 {
+	font-size: 50px;
+	font-weight: 700;
+	color: #2f68eb;
+}
 h2{
   color: #2f68eb;
   font-size: 300%;
@@ -48,19 +52,19 @@ h2{
     /*width: 100%;*/
     text-align: center;
     background-color: white;
-    color: black;
+    color: #2f68eb;
     padding: 5px 20px 5px 20px;
     text-align: center;
     border:solid;
     border-width: 1px;
     border-radius: 8px;
-    font-size: 2em;
+    font-size: 1.25em;
     text-transform: uppercase;
     font-weight: bolder;
     transition: background-color 0.2s, color 0.2s;
 }
 .lregister:hover{
-  background-color:#228ffe;
+  background-color:#6300d6;
   color:white;
 }
 .landing .clogocontain{
@@ -131,7 +135,7 @@ footer{
 }
 
 #about h3 {
-  font-size: 140%;
+  font-size: 160%;
   color: #262626;
   margin-bottom: 0;
   margin-top: 18px;
@@ -147,7 +151,7 @@ footer{
   margin: auto;
   color: rgba(0, 0, 0, 0.6);
   line-height: 200%;
-  font-size: 140%;
+  font-size: 160%;
 }
 
 #about img {
@@ -160,7 +164,7 @@ footer{
 
 #schedule
 {
-background-color: #f2f2f2;
+background-color: white;
 }
 
 #schedule #head{
@@ -289,7 +293,7 @@ input[type=submit]:hover {
     border-width: 1px;
     border-radius: 8px;
     /*cursor: none;*/
-    font-size: 30px;
+    font-size: 1.25em;
     /*font-size : 1.5vw;*/
     text-transform: uppercase;
     font-weight: bolder;
@@ -297,19 +301,19 @@ input[type=submit]:hover {
     transition: background-color 0.3s;
 }
 .register:hover{
-  background-color:#2f68eb;
+  background-color:#6300d6;
   color:white;
 }
 
 .flaticon-facebook-logo:before{
   font-size:5em !important;
-  color:black;
+  color:#3979FD;
   transition: color 0.2s;
   /*background-color: purple;*/
 }
 
 .endregister  a:hover i:before{
-  color:#3b5998;
+  color:#6300d6;
 }
 
 @media only screen and (max-width:800px){
@@ -412,3 +416,103 @@ input[type=text]{
       display: block;
     }
   }
+.team-block img {
+	margin: 0 auto 30px auto;
+}
+
+.team-block img:last-child {
+	margin-bottom: 0;
+}
+
+.team-block .name {
+	margin: 0 0 10px 0;
+}
+
+.team-block .occupation {
+	margin: 0 0 20px 0;
+	font-weight: 300;
+	opacity: 0.4;
+}
+
+.team-block .soc-list {
+	margin-top: 25px;
+}
+@media (min-width: 992px) {
+
+.team-block [class^=col-] {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+}
+.container,
+.container-fluid {
+	position: relative;
+	z-index: 1;
+}
+
+.row [class^=col-] {
+	padding-bottom: 40px;
+}
+
+.row.no-dev [class^=col-],
+ .row [class^=col-sm-] {
+	padding-bottom: 0px;
+}
+
+.row [class^=col-]:last-child {
+	padding-bottom: 0;
+}
+}
+@media (max-width: 767px) {
+
+.row [class^=col-sm-] {
+	padding-bottom: 40px;
+}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 1024px) {
+
+.fixed-bg {
+	background-attachment: scroll !important;
+}
+}
+.screen {
+	max-width: 100%;
+	height: auto;
+}
+
+.screen {
+	max-width: 100%;
+	height: auto;
+}
+
+.container-half {
+	position: absolute;
+	width: 50%;
+	top: 0;
+	bottom: 0;
+}
+
+.container-half-right {
+	right: 0;
+}
+
+.container-half-left {
+	left: 0;
+}
+
+img.full-height {
+	height: 100%;
+	width: auto;
+}
+
+img.full-width {
+	width: 100%;
+	height: auto;
+}
+ @media (max-width: 992px) {
+
+.container-half-right,
+ .container-half-left {
+	display: none;
+}
+}

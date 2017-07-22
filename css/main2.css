@@ -13,7 +13,7 @@ html, body {
 h1 {
 	font-size: 50px;
 	font-weight: 700;
-	color: #003265;
+	color: #2f68eb;
 }
 
 p.cbody {
@@ -33,10 +33,10 @@ a {
 	text-align: center;
 	position: relative;
 	z-index: 101;
-	background-color: #f2f2f2;
+	background-color:white;
 }
-.card h1 {
-   color: #3979FD;
+.card h2 {
+   color: #2f68eb;
 }
 .card a {
    color: #3979FD;
@@ -45,7 +45,7 @@ a {
     color: #6300d6;
 }
 #press {
-	background-color: #f2f2f2;
+	background-color: white;
 
 }
 
@@ -70,7 +70,7 @@ a {
 }
 
 .press-source {
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: 400;
 	color: #3b3b3b;
 	margin-top: 10px;
@@ -92,7 +92,7 @@ a {
 
 #faq {
 	/*background-color: white;*/
-	background-color: #f2f2f2;
+	background-color: white;
 }
 
 #faq-content {
