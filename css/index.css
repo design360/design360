@@ -407,7 +407,20 @@ input[type=submit]:hover {
   /*background-color: purple;*/
 }
 
+.flaticon-linkedin-logo:before{
+  color:#0077B5;
+  transition: color 0.2s;
+}
+.flaticon-twitter-logo-silhouette:before{
+  color:#1dcaff;
+  transition: color 0.2s;
+
+}
+
 .endregister  a:hover i:before{
+  color:#6300d6;
+}
+.container  a:hover i:before{
   color:#6300d6;
 }
 
@@ -461,6 +474,12 @@ input[type=text]{
   text-align: center;
   display: block;
   margin-left: 35px;
+}
+.landing .clogocontain .elogo{
+  width:70px;
+}
+.landing .clogocontain .clogo{
+  width: 70px;
 }
   }
   @media only screen and (max-width:414px){
@@ -533,6 +552,7 @@ input[type=text]{
 }
 .team-block h3 a:hover
 {
+  color:#6300d6 !important;
   text-decoration: none;
   opacity: 1
 }
