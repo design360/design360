@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: 700;
+	color: #2f68eb;
+}
+
+p.cbody {
+	font-size: 28px;
+	line-height: 45px;
+	color: #3b3b3b;
+}
+
+a {
+	color: black;
+}
+.card {
+	width: 100vw;
+	max-width: 100%;
+	padding: 50px;
+	/*padding-top:60px;*/
+	text-align: center;
+	position: relative;
+	z-index: 101;
+	background-color:white;
+}
+.card h2 {
+   color: #2f68eb;
+}
+.card a {
+   color: #3979FD;
+}
+.card a:hover {
+    color: #6300d6;
+}
+#press {
+	background-color: white;
+
+}
+
+#press-array {
+	display: flex;
+	align-items: center;
+}
+
+.press-element {
+	display: inline-block;
+	flex: 1 1 auto;
+	/*height: 150px;*/
+	width: 30%;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+.press-title {
+	font-size: 35px;
+	font-weight: 100;
+	color: #3979FD;;
+}
+
+.press-source {
+	font-size: 25px;
+	font-weight: 400;
+	color: #3b3b3b;
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 900px){
+	#press-array {
+		display: block;
+	}
+	.press-element {
+		width:100%;
+	}
+}
+
+.underlinable:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#faq {
+	/*background-color: white;*/
+	background-color: white;
+}
+
+#faq-content {
+	width: 900px;
+	margin: auto;
+	text-align: left;
+}
